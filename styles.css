@@ -1,0 +1,145 @@
+.html {
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+.header {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+}
+
+.padawan {
+    font-size: 125%;
+    position: absolute;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+/* navbar */
+#navbar {
+    min-height: 50px;
+    height: 50px; 
+    margin-top: -10px;
+    overflow: hidden;
+    background-color: #333;
+    }
+
+.highlighted {
+    color: gray;
+}
+    
+    /* Navbar links */
+    #navbar a {
+    min-height: 10%;
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    }
+    
+    .content {
+    padding: 16px;
+    text-align: center;
+    }
+    
+    .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+    
+    .sticky + .content {
+    padding-top: 50px;
+    }
+
+/* about section */
+    .aboutParent {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+
+    .aboutFirstChild {
+        font-size: 120%;
+        padding: 0%;
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin-left: 5%;
+        vertical-align: top;
+    }
+
+    .aboutSecondChild {
+        font-size: 100%;
+        display: block;
+        text-align: left;
+        margin-right: 10%;
+    }
+
+/* pictures of Columbus/myself */
+.picParent {
+    display: flex;
+    width: 100%;
+    resize: block;
+    margin: 0%;
+}
+.picChilds {
+    display: block;
+}
+.picChild img {
+    display: block;
+    max-width: 100%;
+}
+
+
+#sectionThree {
+    text-align: center;
+}
+
+.portParent {
+    justify-content: center;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 px;
+}
+
+.column {
+    flex: 33%;
+    max-width: 30%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+    flex: 50%;
+    max-width: 50%;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+    flex: 100%;
+    max-width: 100%;
+      }
+}
