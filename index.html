@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyle Ballard's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+
+<!--imported bootstrap timeline-->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
 <!--top of page-->
@@ -31,9 +36,10 @@
 
 <div class="aboutParent">
     <div class="aboutFirstChild">
-        <h1>Hello there,</h1></div>
+        <h2>Hello there,</h2></div>
     <div class="aboutSecondChild">
-        <h3>Thanks for stopping by. My name is Kyle Ballard and I'm currently working full-time in Eleven Fifty Academy's Web Development course. Since childhood I've had a great interest in technology and I'm excited to turn that interest into a better career. I spent two years working at a corporate help desk which was a wonderful opportunity to experience the varying levels of which users understand technology - and how to best help resolve their problems. Here's to a better future!</h3></div>
+        <h3>Thanks for stopping by. My name is Kyle Ballard and I'm currently working full-time in Eleven Fifty Academy's Web Development course. Since childhood I've had a great interest in technology and I'm excited to turn that interest into a better career. I spent two years working at a corporate help desk which was a wonderful opportunity to experience the varying levels of which users understand technology - and how to best help resolve their problems.</h3>
+        <h3>I am thrilled to have the opportunity to explore a new path in web development. Here's to a better future!</h3></div>
 </div>
 
 <!--pictureDiv-->
@@ -43,44 +49,167 @@
     <div class="picChild"><img src="assets/millrace.jpg" alt="Millrace"></div>
 </div>
 <br>
+<br><br>
+<div id="sectionThree"></div>
 <br>
 <!--portfolio links-->
-<div id="sectionThree"><h2>My Portfolio:</h2></div>
+<div id="portHeader"><h3>My Portfolio:</h3></div>
+<header class="page-header"></header>
 <br>
-<br>
+<br><br>
 <div class="portfolio">
 
 <div class="portParent">
     <div class="column">
-        
+        <h5>CSS Creature</h5>
         <a href="https://codepen.io/kballard/pen/qBZovae"> 
         <img src="/portfolio/assets/bart.JPG"></a>
-
+        <br><br><br>
+        <h5>NASA API Project</h5>
         <a href="">
-        <img src="assets/construction.jpg"></a>
+        <img src="assets/coord.jpg"></a>
 
     </div>
     <div class="column">
-        
+        <h5>Static Website Build</h5>
         <a href="https://klballard.github.io/staticwebsite/">
         <img src="assets/hulu.jpg"></a>
-        
-        <a href="">
-        <img src="assets/construction.jpg"></a>
-    
-        </div>
-    <div class="column">
+        <br><br><br>
 
+        <h5>Pokesearch API Project</h5>
         <a href="https://klballard.github.io/pokesearch">
         <img src="assets/pokemon.jpg"></a>
-        
+
+        </div>
+    <!-- <div class="column">
+       <h5>In progress</h5>
+        <a href="">
+        <img src="assets/construction.jpg"></a> 
+       
+        <br><br><br>
+    
+        <h5>In progress</h5>
         <a href="">
         <img src="assets/construction.jpg"></a>
+        </div>-->
 </div>
 <!--timeline/resume leading to this-->
+<br><br>      
+<div id="sectionFour"></div>
+<div class="container">
+    <header class="page-header">
+      <h3>Timeline:</h3>
 
+    </header>
 
+    <ul class="timeline">
+      <li><div class="tldate">Present Day</div></li>
+      <br><br>
 
+      <li>
+        <div class="tl-circ"></div>
+        <div class="timeline-panel">
+          <div class="tl-heading">
+            <h4>Eleven Fifty Academy</h4>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> September 2020</small></p>
+          </div>
+          <div class="tl-body">
+            <p>Began my studies on web development. HTML, CSS and JavaScript.</p>
+          </div>
+        </div>
+      </li>
+      <br><br>
+      <li><div class="tldate">2020</div></li>
+      <br><br><br><br>
+      <li class="timeline-inverted">
+        <div class="tl-circ"></div>
+        <div class="timeline-panel">
+          <div class="tl-heading">
+            <h4>Elwood Staffing Helpdesk</h4>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> July 2018</small></p>
+          </div>
+          <div class="tl-body">
+            <p>General helpdesk support at Corporate HQ, dealing with a wide variety of devices and setups.</p>
+              
+          </div>
+        </div>
+      </li>
+      <br><br>
+      <li><div class="tldate">2018</div></li>
+      <br><br><br><br><br><br>
+      <li>
+        <div class="tl-circ"></div>
+        <div class="timeline-panel">
+          <div class="tl-heading">
+            <h4>Kroger Clicklist</h4>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> May 2015</small></p>
+          </div>
+          <div class="tl-body">
+            <p>Worked in a fast paced environment ensuring each order was filled accurately.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+
+      
+      <li><div class="tldate">2015</div></li>
+      
+      <li class="timeline-inverted">
+        <div class="tl-circ"></div>
+        <div class="timeline-panel">
+          <div class="tl-heading">
+            <h4>Ivy Tech</h4>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2012</small></p>
+          </div>
+          <div class="tl-body">
+            <p>Began studies on Computer Science.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="tl-circ"></div>
+        <div class="timeline-panel">
+          <div class="tl-heading">
+            <h4>Columbus North High School</h4>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2008</small></p>
+          </div>
+          <div class="tl-body">
+            <p>Graduated high school.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+<br>
+
+<div class="contactMain">
+    <div id="sectionFive"></div>
+    <header class="page-header"></header><br><br>
+    <form
+    action="https://formspree.io/f/mqkgeagq"
+    method="POST" class="contactForm"><h4>Contact me:</h4><br>
+    <label id="yourName">
+    <input type="text" name="name" placeholder="Your name">
+    </label><br>
+    <label id="yourEmail">
+      <input type="text" name="_replyto" placeholder="Your email">
+    </label><br>
+    <label id="yourMessage">
+      <textarea name="message" placeholder="Your message"></textarea>
+    </label><br>
+
+    <button type="submit">Send email!</button>
+  </form>
+</div>
+<header class="page-header"></header>
+<div class="bottomLinks">
+    <br><br><br><br>
+<h5>Kyle Ballard 2020</h5><br><br>
+<a href='https://github.com/klballard'><img src='assets/github.jpg'></a>
+<a href='https://www.linkedin.com/'><img src='assets/linkedin.jpg'></a>
+<br><br><br><Br>
+</div>
+
+<!--Icons made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/" title="Flaticon">-->
 <script src="script.js"></script>
 </body>
 </html>
