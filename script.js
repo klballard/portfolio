@@ -29,3 +29,4 @@ $(window).scroll(function() {
 
 });
 
+// Thinking of adding an event listener for 'onscroll' to certain #anchors to match up and improve the nav bar dynamically

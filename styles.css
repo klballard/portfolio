@@ -110,6 +110,8 @@
     text-align: center;
 }
 
+
+/* portfolio pic links */
 .portParent {
     justify-content: center;
     margin-left: 5%;
@@ -129,7 +131,7 @@
     vertical-align: middle;
     border-radius: 10px;
 }
-
+/*img scaling */
 @media screen and (max-width: 800px) {
     .column {
     flex: 50%;
@@ -143,3 +145,5 @@
     max-width: 100%;
       }
 }
+
+
