@@ -76,13 +76,12 @@
     }
 
     .aboutFirstChild {
-        font-size: 2.2em;
-        padding: 0%;
+        font-size: 2em;
+        padding: 1em;
         display: block;
         width: 80%;
         text-align: center;
         margin-left: 5%;
-        vertical-align: top;
     }
 
     .aboutSecondChild {
